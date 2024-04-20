@@ -1,0 +1,12 @@
+[connections]
+[connections.dev]
+account = "xxxxx"
+user = "xxxxx"
+password = "xxxxx"
+database = "xxxxx"
+schema = "xxxxx"
+warehouse = "xxxxx"
+role = "xxxxx"
+
+[options]
+default_connection = "dev"

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "streamlit-quickstart"
+version = "0.1.0"
+description = ""
+authors = ["selina"]
+readme = "README.md"
+packages = [{include = "streamlit-quickstart"}]
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+snowflake-snowpark-python = "<=2.1.2"
+streamlit = "1.22.0"
+tomli = "2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
